@@ -1,0 +1,109 @@
+<resources>
+    <string name="be_ll_t_sok">Beállítások</string>
+
+    <string name="jegyzetek">Jegyzetek</string>
+    <string name="change">Átváltó</string>
+    <string name="profilk_p">Profilkép</string>
+    <string name="egyenlegek">Egyenlegek</string>
+    <string name="j">Új</string>
+
+    <string name="navigation_drawer_open">Megnyitás</string>
+    <string name="navigation_drawer_close">Bezárás</string>
+    <string name="c_m">Cím</string>
+    <string name="jegyzet_tartalma">Jegyzet tartalma</string>
+    <string name="ment_s">Mentés</string>
+    <string name="t_rl_s">Törlés</string>
+    <string name="tartalom">Tartalom</string>
+    <string name="vissza">Vissza</string>
+
+    <string name="prompt_password">Jelszó</string>
+    <string name="action_sign_in">Belépés</string>
+
+    <string name="nav_header_title">Ismeretlen felhasználó</string>
+    <string name="nav_header_subtitle">Ismeretlen email cím</string>
+
+    <string name="logout">Kijelentkezés</string>
+    <string name="sign_in_cancelled">Bejelentkezés megszakítva!</string>
+    <string name="approve">Jóváhagy</string>
+    <string name="empty_fields">Kérlek, tölts ki minden mezőt!</string>
+    <string name="cancel">Mégsem</string>
+    <string name="new_note">Új jegyzet létrehozva és pénzügyek feldolgozva</string>
+    <string name="fail_during_note">Hiba történt a jegyzet létrehozásakor</string>
+    <string name="reserved_category">Ez a kategória már használatban van!</string>
+    <string name="category_check_error">Nem sikerült ellenőrizni a kategóriát</string>
+    <string name="reserved_title">Ez a cím már használatban van!</string>
+    <string name="title_check_error">Nem sikerült ellenőrizni a címet</string>
+    <string name="note_updated">Jegyzet frissítve és pénzügyek feldolgozva</string>
+    <string name="note_update_error">Hiba történt a jegyzet frissítésekor!</string>
+    <string name="username_updated">Felhasználónév frissítve!</string>
+    <string name="username_empty">A felhasználónév mező nem lehet üres!</string>
+    <string name="username_update_error">Hiba történt a felhasználónév frissítésekor!</string>
+    <string name="sing_out_error">Sikertelen kijelentkezés!</string>
+    <string name="confirm_delete">Törlés megerősítése</string>
+    <string name="confirm_delete_content">Biztosan törölni szeretnéd ezt a jegyzetet?</string>
+    <string name="delete">Törlés</string>
+    <string name="note_deleted">Jegyzet sikeresen törölve!</string>
+    <string name="note_delete_error">Hiba a jegyzet törlésekor</string>
+    <string name="unknown_balance">Ismeretlen</string>
+    <string name="balance_update_error">Nem sikerült frissíteni az egyenleget!</string>
+    <string name="notes_loading_error">Hiba történt a jegyzetek betöltésekor!</string>
+    <string name="first_note">Ide írd a jegyzeteidet...</string>
+    <string name="settings">Beállítások</string>
+    <string name="username">Felhasználónév</string>
+    <string name="amount">Összeg</string>
+    <string name="note">Megjegyzés</string>
+    <string name="half_or_unique">Fele / Egyéni</string>
+    <string name="own">Saját</string>
+    <string name="other">Másik</string>
+    <string name="monthly_balance">Havi egyenleg:</string>
+    <string name="amount_placeholder">0 Ft</string>
+    <string name="debt_balance">Tartozás:</string>
+    <string name="hide">Elrejtés</string>
+    <string name="total_balance">Teljes egyenleg:</string>
+    <string name="expense">Kiadás</string>
+    <string name="common_expense">Közös kiadás</string>
+    <string name="debt">Tartozás</string>
+    <string name="new_monthly">Új havi egyenleg</string>
+    <string name="other_income">Egyéb bevétel</string>
+    <string name="massive_expense">Nagyobb kiadás</string>
+    <string name="recurring_monthly_expense">Ismétlődő havi kiadás</string>
+    <string name="select_language">Nyelv</string>
+
+    <string-array name="note_categories">
+        <item>Egyszerű jegyzet</item>
+        <item>Egyéb bevételek</item>
+        <item>Havi megtakarítások</item>
+        <item>Tartozások</item>
+        <item>Ismétlődő havi kiadások</item>
+        <item>Aktuális havi kiadások</item>
+        <item>Nagyobb összegű kiadások</item>
+        <item>Havi fizetések</item>
+    </string-array>
+    <string name="sign_in_failed">Sikertelen belépés!</string>
+
+    <string-array name="language_options">
+        <item>Angol</item>
+        <item>Magyar</item>
+        <item>Japán</item>
+    </string-array>
+    <string name="simple_note">Egyszerű jegyzet</string>
+    <string name="unknown_title">Ismeretlen cím</string>
+    <string name="monthly_payments">Havi fizetések</string>
+    <string name="larger_expenses">Nagyobb összegű kiadások</string>
+    <string name="current_monthly_expenses">Aktuális havi kiadások</string>
+    <string name="recurring_monthly_expenses">Ismétlődő havi kiadások</string>
+    <string name="debts">Tartozások</string>
+    <string name="monthly_saves">Havi megtakarítások</string>
+    <string name="other_incomes">Egyéb bevételek</string>
+    <string name="new_monthly_balance">Új havi egyenleg</string>
+    <string name="larger_expense">Nagyobb kiadás</string>
+    <string name="balance_warning_title">Nincs elég egyenleg</string>
+    <string name="not_enough_balance">Nincs elegendő teljes egyenleg a havi egyenlegen felül, amiből levonásra kerülhetnének a módosítások!</string>
+    <string name="confirm_delete_multiple_notes_one">Ezzel a művelettel a Havi megtakarítások jegyzet is törlésre kerül! Biztosan törlöd?</string>
+    <string name="confirm_delete_multiple_notes_two">Ezzel a művelettel a Havi fizetések jegyzet is törlésre kerül! Biztosan törlöd?</string>
+    <string name="notes_deleted">Jegyzetek sikeresen törölve!</string>
+    <string name="approve_restart">A nyelv váltásához újra kell indítani az alkalmazást! Szeretnéd újraindítani? The application needs to be restarted for the language change to take effect. Would you like to restart now?</string>
+    <string name="restart_required">Újraindítás szükséges Restart Required</string>
+
+
+</resources>

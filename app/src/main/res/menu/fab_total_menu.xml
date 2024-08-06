@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/other_income"
+        android:title="@string/other_income"/>
+    <item android:id="@+id/larger_expense"
+        android:title="@string/massive_expense"/>
+    <item android:id="@+id/recurring_monthly_expense"
+        android:title="@string/recurring_monthly_expense"/>
+</menu>

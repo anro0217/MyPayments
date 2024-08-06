@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/wallet"
+            android:title="@string/egyenlegek"/>
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/notes"
+            android:title="@string/jegyzetek" />
+        <item
+            android:id="@+id/nav_others"
+            android:icon="@drawable/others"
+            android:title="@string/change" />
+    </group>
+</menu>

@@ -1,0 +1,25 @@
+# Firebase configuration file
+**/google-services.json
+
+# Local configuration file (SDK location)
+local.properties
+
+# Android Studio specific files
+.idea/
+*.iml
+
+# Build directories
+/build/
+app/build/
+
+# Gradle cache
+.gradle/
+
+# Signed keystore files
+*.keystore
+
+# User specific files
+.DS_Store
+
+# Environment variables
+.env

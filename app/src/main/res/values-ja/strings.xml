@@ -1,0 +1,100 @@
+<resources>
+    <string name="be_ll_t_sok">設定</string>
+    <string name="jegyzetek">ノート</string>
+    <string name="change">変換器</string>
+    <string name="profilk_p">プロフィール写真</string>
+    <string name="egyenlegek">バランス</string>
+    <string name="j">新しい</string>
+    <string name="navigation_drawer_open">開く</string>
+    <string name="navigation_drawer_close">閉じる</string>
+    <string name="c_m">タイトル</string>
+    <string name="jegyzet_tartalma">ノートの内容</string>
+    <string name="ment_s">保存</string>
+    <string name="t_rl_s">削除</string>
+    <string name="tartalom">コンテンツ</string>
+    <string name="vissza">戻る</string>
+    <string name="prompt_password">パスワード</string>
+    <string name="action_sign_in">ログイン</string>
+    <string name="nav_header_title">未知のユーザー</string>
+    <string name="nav_header_subtitle">未知のメールアドレス</string>
+    <string name="logout">ログアウト</string>
+    <string name="sign_in_cancelled">ログインが中断されました！</string>
+    <string name="approve">承認</string>
+    <string name="empty_fields">すべてのフィールドを記入してください！</string>
+    <string name="cancel">キャンセル</string>
+    <string name="new_note">新しいノートが作成され、財務が処理されました</string>
+    <string name="fail_during_note">ノート作成中にエラーが発生しました</string>
+    <string name="reserved_category">このカテゴリーはすでに使用中です！</string>
+    <string name="category_check_error">カテゴリをチェックできませんでした</string>
+    <string name="reserved_title">このタイトルはすでに使用中です！</string>
+    <string name="title_check_error">タイトルをチェックできませんでした</string>
+    <string name="note_updated">ノートが更新され、財務が処理されました</string>
+    <string name="note_update_error">ノートの更新中にエラーが発生しました！</string>
+    <string name="username_updated">ユーザー名が更新されました！</string>
+    <string name="username_empty">ユーザー名フィールドは空にできません！</string>
+    <string name="username_update_error">ユーザー名の更新中にエラーが発生しました！</string>
+    <string name="sing_out_error">ログアウトに失敗しました！</string>
+    <string name="confirm_delete">削除の確認</string>
+    <string name="confirm_delete_content">このノートを本当に削除しますか？</string>
+    <string name="delete">削除</string>
+    <string name="note_deleted">ノートが正常に削除されました！</string>
+    <string name="note_delete_error">ノートの削除中にエラーが発生しました</string>
+    <string name="unknown_balance">不明</string>
+    <string name="balance_update_error">バランスの更新に失敗しました！</string>
+    <string name="notes_loading_error">ノートの読み込み中にエラーが発生しました！</string>
+    <string name="first_note">ここにメモを書いてください…</string>
+    <string name="settings">設定</string>
+    <string name="username">ユーザー名</string>
+    <string name="amount">金額</string>
+    <string name="note">ノート</string>
+    <string name="half_or_unique">半分/ユニーク</string>
+    <string name="own">自分の</string>
+    <string name="other">他の</string>
+    <string name="monthly_balance">月間バランス：</string>
+    <string name="amount_placeholder">¥0</string>
+    <string name="debt_balance">負債：</string>
+    <string name="hide">隠す</string>
+    <string name="total_balance">総バランス：</string>
+    <string name="expense">経費</string>
+    <string name="common_expense">共通経費</string>
+    <string name="debt">負債</string>
+    <string name="new_monthly">新しい月間</string>
+    <string name="other_income">その他の収入</string>
+    <string name="massive_expense">大きな支出</string>
+    <string name="recurring_monthly_expense">繰り返しの月間経費</string>
+    <string name="select_language">言語</string>
+    <string-array name="note_categories">
+        <item>シンプルノート</item>
+        <item>その他の収入</item>
+        <item>月間貯蓄</item>
+        <item>負債</item>
+        <item>繰り返しの月間経費</item>
+        <item>現在の月間経費</item>
+        <item>大きな支出</item>
+        <item>月間支払い</item>
+    </string-array>
+    <string name="sign_in_failed">ログインに失敗しました！</string>
+    <string-array name="language_options">
+        <item>英語</item>
+        <item>ハンガリー語</item>
+        <item>日本語</item>
+    </string-array>
+    <string name="simple_note">シンプルノート</string>
+    <string name="unknown_title">未知のタイトル</string>
+    <string name="monthly_payments">月間支払い</string>
+    <string name="larger_expenses">大きな支出</string>
+    <string name="current_monthly_expenses">現在の月間経費</string>
+    <string name="recurring_monthly_expenses">繰り返しの月間経費</string>
+    <string name="debts">負債</string>
+    <string name="monthly_saves">月間貯蓄</string>
+    <string name="other_incomes">その他の収入</string>
+    <string name="new_monthly_balance">新しい月間バランス</string>
+    <string name="larger_expense">大きな支出</string>
+    <string name="balance_warning_title">十分な残高がありません</string>
+    <string name="not_enough_balance">全体の残高が月間残高より上回る場合、変更は削除されます！</string>
+    <string name="confirm_delete_multiple_notes_one">この操作で月間貯蓄ノートも削除されます！本当に削除しますか？</string>
+    <string name="confirm_delete_multiple_notes_two">この操作で月間支払いノートも削除されます！本当に削除しますか？</string>
+    <string name="notes_deleted">ノートが正常に削除されました！</string>
+    <string name="approve_restart">言語を変更するためにはアプリケーションを再起動する必要があります。今すぐ再起動しますか？</string>
+    <string name="restart_required">再起動が必要です</string>
+</resources>

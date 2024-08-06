@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".fragments.MonthlyBalanceFragment">
+
+    <TextView
+        android:id="@+id/monthlyBalanceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monthly_balance"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <!--TODO 10.000.000 és nagyobb összeget is tudjon kezelni!-->
+    <TextView
+        android:id="@+id/monthlyBalanceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amount_placeholder"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/debtBalanceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/debt_balance"/>
+    <!--TODO 10.000.000 és nagyobb összeget is tudjon kezelni!-->
+    <TextView
+        android:id="@+id/debtBalanceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amount_placeholder"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/toggleVisibilityButtonMonthly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hide"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

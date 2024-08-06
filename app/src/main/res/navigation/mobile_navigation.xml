@@ -1,0 +1,25 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/mobile_navigation"
+app:startDestination="@id/nav_home">
+
+<fragment
+    android:id="@+id/nav_home"
+    android:name="com.myapps.mypayments.fragments.HomeFragment"
+    android:label="@string/egyenlegek"
+    tools:layout="@layout/fragment_home" />
+
+<fragment
+    android:id="@+id/nav_notes"
+    android:name="com.myapps.mypayments.fragments.NotesFragment"
+    android:label="@string/jegyzetek"
+    tools:layout="@layout/fragment_notes" />
+
+<fragment
+    android:id="@+id/nav_others"
+    android:name="com.myapps.mypayments.fragments.OthersFragment"
+    android:label="@string/change"
+    tools:layout="@layout/fragment_others" />
+<!-- Add more fragments here for other pages -->
+</navigation>
